@@ -1,0 +1,61 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-base             # Packages every Meteor app needs to have
+mobile-experience       # Packages for a great mobile UX
+mongo                   # The database Meteor supports right now
+blaze-html-templates    # Compile .html files into Meteor Blaze views
+session                 # Client-side reactive dictionary for your app
+jquery                  # Helpful client-side library
+tracker                 # Meteor's client-side reactive programming library
+
+standard-minifiers      # JS/CSS minifiers run for production mode
+es5-shim                # ECMAScript 5 compatibility for older browsers.
+ecmascript              # Enable ECMAScript2015+ syntax in app code
+
+insecure                # Allow all DB writes from clients (for prototyping)
+iron:router
+aldeed:autoform
+aldeed:collection2
+twbs:bootstrap
+aldeed:delete-button
+fortawesome:fontawesome
+email
+alanning:roles
+random
+accounts-base
+accounts-password
+kadira:blaze-layout
+dburles:collection-helpers
+yogiben:admin
+abhiaiyer:meteor-twilio
+accounts-facebook
+accounts-github
+accounts-google
+accounts-twitter
+accounts-ui
+aldeed:simple-schema
+anti:fake
+barbatus:stars-rating
+alethes:pages
+cesarve:simple-chat
+dapearce:material-icons
+easy:search
+dburles:factory
+houston:admin
+launch-screen
+mdg:camera
+mdg:geolocation
+sergeyt:typeahead
+summernote:summernote
+yogiben:autoform-file
+yogiben:autoform-modals
+yogiben:helpers
+yogiben:pretty-email
+meteorhacks:npm
+
+
+npm-container

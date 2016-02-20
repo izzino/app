@@ -1,0 +1,6 @@
+<template name="EditContact">
+  <h1>Edit</h1>
+  {{> quickForm collection="Contacts" doc=this id="editContactForm" type="update" buttonContent="Update"}}
+  <hr>
+  {{> quickRemoveButton collection="Contacts" _id=this._id beforeRemove=beforeRemove class="btn btn-danger"}}
+</template>
